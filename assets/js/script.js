@@ -47,16 +47,32 @@ ScrollReveal({
     delay: 200
 })
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-content, .heading, .about-content', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form,', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img, .about-me-skills', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-me-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Designer', 'Freelancer'],
+    strings: ['FullStack Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+    function isFormEmpty() {
+        const inputs = document.querySelectorAll('input[type="text"], input[type="email"], textarea');
+        for (let input of inputs) {
+            if (input.value.trim() === '') {
+                return true; 
+            }
+        }
+        return false; 
+    }
+
+    if (isFormEmpty()) {
+        document.getElementById('contactForm').reset();
+    }
+});

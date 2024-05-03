@@ -120,7 +120,7 @@ span {
 }
 
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 
@@ -164,10 +164,9 @@ span {
 }
 
 .about {
-    display: flex;
     justify-content: center;
-    align-items: center;
     gap: 2rem;
+    margin-bottom: 5rem;
     background: var(--second-bg-color);
 }
 
@@ -180,8 +179,12 @@ span {
     font-size: 4.5rem;
 }
 
+.about-content {
+    margin-bottom: 5rem;
+}
+
 .about-content h2 {
-    text-align: left;
+    text-align: center;
     line-height: 1.2;
 }
 
@@ -190,54 +193,53 @@ span {
 }
 
 .about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+    text-align: center;
+    font-size: 1.8rem;
 }
 
-.service h2{
-    margin-bottom: 5rem;
-}
-
-.services-container {
+.about-me {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+    gap: 5rem;
 }
 
-.services-container .services-box{
-    flex: 1 1 30rem;
-    background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    text-align: center;
-    border: .2rem solid var(--bg-color);
-    transition: .5s ease;
+.about-me h2 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
 }
 
-.services-container .services-box:hover {
-    border-color: var(--main-color);
-    transform: scale(1.02);
+.about-me-content {
+     flex: 1;
 }
 
-
-.services-box i {
-    font-size: 7rem;
-    color: var(--main-color);
-}
-
-.services-box h3 {
-    font-size: 2.6rem;
-}
-
-.services-box p {
+.about-me-content p {
     font-size: 1.6rem;
-    margin: 1rem 0 3rem;
+    line-height: 3rem;
+}
+
+.about-me-skills {
+   flex: 1;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+
+}
+
+.skill {
+  padding: 10px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border: 1px;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  box-sizing: border-box; 
 }
 
 .portfolio {
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .portfolio h2 {
@@ -312,6 +314,10 @@ span {
     color: var(--second-bg-color);
 }
 
+.contact {
+    background-color: var(--second-bg-color);
+}
+
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -335,7 +341,7 @@ span {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
 }
@@ -359,7 +365,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p {
@@ -466,6 +472,12 @@ span {
 
     .about img {
         width: 70vw;
+    }
+
+    .about-me {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .services h2 {
