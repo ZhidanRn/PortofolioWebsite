@@ -49,8 +49,7 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading, .about-content', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form,', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img, .about-me-skills', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-me-content', { origin: 'right' });
+ScrollReveal().reveal('.home-content h1, .home-content p, .about-img, .about-me-skills, .about-me-content', { origin: 'left' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
