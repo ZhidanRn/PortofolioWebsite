@@ -124,8 +124,6 @@ span {
     visibility: hidden;
 }
 
-
-
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -216,6 +214,7 @@ span {
 .about-me-content p {
     font-size: 1.6rem;
     line-height: 3rem;
+    margin-bottom: 2rem;
 }
 
 .about-me-skills {
@@ -493,6 +492,10 @@ span {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .project-content img {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 617px) {
@@ -531,3 +534,49 @@ span {
 
 
 }
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-content img {
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.project p {
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+}
+
+.overview {
+    background: var(--second-bg-color);
+}
+
+.overview h2 {
+    margin-bottom: 4rem;
+}
+
+.overview a {
+    margin: 0 10px;
+}
+
+.btn-box {
+    position: absolute;
+    top: 190%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
