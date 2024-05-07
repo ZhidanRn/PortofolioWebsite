@@ -207,17 +207,17 @@ span {
     margin-bottom: 2rem;
 }
 
-.about-me-content {
+.desc-content {
      flex: 1;
 }
 
-.about-me-content p {
+.desc-content p {
     font-size: 1.6rem;
     line-height: 3rem;
     margin-bottom: 2rem;
 }
 
-.about-me-skills {
+.desc-skills {
    flex: 1;
 }
 
@@ -230,7 +230,7 @@ span {
 
 .skill {
   padding: 10px;
-  margin-right: 2rem;
+  margin-right: 1rem;
   margin-bottom: 2rem;
   border: 1px;
   border-radius: 5px;
@@ -567,16 +567,6 @@ span {
 }
 
 .overview a {
-    margin: 0 10px;
+    margin-top: 50px;
+    margin-right: 10px;
 }
-
-.btn-box {
-    position: absolute;
-    top: 190%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
