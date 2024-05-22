@@ -1,0 +1,14 @@
+[
+        {
+            "id": "1",
+            "title": "SportsWear",
+            "image": "assets/images/portfolio1.jpg",
+            "tools": ["ReactJs", "Redux","Tailwind CSS", "NodeJs", "JsonWebToken", "SWR"],
+            "description": "The Sportswear E-commerce Website is a comprehensive platform designed to cater to the needs of sportswear enthusiasts. It offers a wide range of sportswear products for men, women, and children. Developed as a final project for a bootcamp at harisenin.com.",
+            "contribute" : ["Category Integration: Developed the functionality to seamlessly integrate product categories into the website's structure, enabling organized navigation and product discovery.", "Add-to-Cart Feature: Implemented the add-to-cart functionality, allowing users to effortlessly add selected items to their shopping cart for subsequent checkout.", "Frontend and Backend Integration: Ensured smooth communication between the frontend and backend layers, facilitating seamless data exchange and user interactions.", "State Management: Contributed to the implementation of Redux for efficient state management, ensuring consistent application state across components."],
+            "linklive" : "",
+            "linksc" : "https://github.com/ZhidanRn/project-harisenin-fullstack-kel7"
+            
+        }
+        
+]

@@ -225,7 +225,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     font-size: 1.6rem;
-
+    
 }
 
 .skill {
@@ -477,7 +477,6 @@ span {
     .about-me {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
     .services h2 {
@@ -539,17 +538,20 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
 .project-content img {
-    border-radius: 4rem;
-    -webkit-border-radius: 4rem;
-    -moz-border-radius: 4rem;
-    -ms-border-radius: 4rem;
-    -o-border-radius: 4rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
+    width: 90%;
+    max-width: 1900px;
 }
 
 .project p {
@@ -569,4 +571,14 @@ span {
 .overview a {
     margin-top: 50px;
     margin-right: 10px;
+}
+
+.overview strong{
+    font-size: 1.6rem;
+}
+
+.overview ul{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-left: 2rem;
 }
