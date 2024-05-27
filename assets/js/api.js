@@ -38,6 +38,7 @@ async function fetchById() {
     const skill = document.getElementById('skills')
     const label = document.getElementById('label-cont')
     const content = document.getElementById('contribute')
+    const fetures = document.getElementById('keyfeatures')
     const btn = document.getElementById('btn-box')
 
     title.innerHTML = project.title
@@ -46,12 +47,15 @@ async function fetchById() {
 
     if(project.contribute.length > 0) {
         label.innerHTML = "Contributions:"
+
+        project.contribute.forEach(element => {
+            content.innerHTML += `<li>${element}</li>`
+        });
     }
 
-    project.contribute.forEach(element => {
-        content.innerHTML += `<li>${element}</li>`
+    project.keyfeatures.forEach(element => {
+        fetures.innerHTML += `<li>${element}</li>`
     });
-
 
     project.tools.forEach(element => {
       skill.innerHTML += `<div class="skill">${element}</div>`
@@ -59,12 +63,12 @@ async function fetchById() {
 
     if(project.linklive.length > 0){
         btn.innerHTML = `
-            <a href="${project.linklive}" class="btn">LIVE DEMO</a>
-            <a href="${project.linksc}" class="btn">SOURCE CODE</a>
+            <a href="${project.linklive}" class="btn" target="_blank">LIVE DEMO</a>
+            <a href="${project.linksc}" class="btn" target="_blank">SOURCE CODE</a>
         `
     } else {
         btn.innerHTML = `
-            <a href="${project.linksc}" class="btn">SOURCE CODE</a>
+            <a href="${project.linksc}" class="btn" target="_blank">SOURCE CODE</a>
         `
     }
 }

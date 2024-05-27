@@ -202,10 +202,25 @@ span {
     gap: 5rem;
 }
 
+.overview-content {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-direction: column;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
 .about-me h2 {
     font-size: 2.8rem;
     margin-bottom: 2rem;
 }
+
+.overview-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
 
 .desc-content {
      flex: 1;
@@ -418,6 +433,10 @@ span {
         padding: 2rem 3%;
     }
 
+    .overview-content {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
 
 
 }
@@ -495,6 +514,11 @@ span {
         width: 100%;
     }
 
+    .overview-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 @media (max-width: 617px) {
@@ -569,8 +593,8 @@ span {
 }
 
 .overview a {
-    margin-top: 50px;
-    margin-right: 10px;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
 }
 
 .overview strong{
@@ -581,4 +605,6 @@ span {
     font-size: 1.6rem;
     line-height: 2.8rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
 }
+
