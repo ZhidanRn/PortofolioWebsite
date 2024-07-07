@@ -14,7 +14,7 @@
 
         {
             "id": "2",
-            "title": "E-comerce App",
+            "title": "E-Comerce App",
             "image": "assets/images/portfolio2.jpg",
             "tools": ["ReactJs", "Redux","Tailwind CSS"],
             "description": "The objective of this project is to develop a fully functional e-commerce web application using ReactJS for the front-end and the FakeStore API for the back-end data. The application aims to provide users with a seamless shopping experience by displaying a variety of products and enabling product search.",
@@ -22,5 +22,17 @@
             "contribute": "",
             "linklive" : "https://eccomerce-apps.vercel.app/",
             "linksc" : "https://github.com/ZhidanRn/eccomerceReactJs"
+        },
+
+        {
+            "id": "3",
+            "title": "CRUD",
+            "image": "assets/images/portfolio3.jpg",
+            "tools": ["NextJs","Tailwind CSS","TypeScript","Zod", "Prisma"],
+            "description":"The web application simulates a simple content management system (CMS) where users can manage a collection of items. Each item can be created, viewed, updated, and deleted, showcasing the full cycle of CRUD operations. The application also includes a search feature, allowing users to find specific items quickly. To handle large datasets efficiently, pagination is implemented, ensuring that the user interface remains responsive and easy to navigate.",
+            "keyfeatures": ["Create: Users can add new items to the system through a user-friendly form.","Read: Items are displayed in a list, with detailed views available for each item.","Update: Users can edit existing items, with changes being saved to the database.", "Delete: Items can be removed from the system.", "Search: A search bar allows users to quickly locate items by keywords, improving the user experience by making navigation more efficient.", "Pagination: Items are displayed in paginated views, with controls to navigate between pages, enhancing the application's performance and usability."],
+            "contribute": "",
+            "linklive" :"https://crudsearchpagination.vercel.app/contacts",
+            "linksc" : "https://github.com/ZhidanRn/crud_search_pagination"
         }
 ]
