@@ -1,25 +1,38 @@
 async function fetchData() {
-    const res = await fetch("assets/project/listProjects.json");
-    const data = await res.json();
+    try {
+        const res = await fetch("assets/project/listProjects.json");
+        const data = await res.json();
 
-    const container = document.getElementById("portfolio-container");
-    
-    data.forEach(project => {
-        const elm = document.createElement('div')
+        const container = document.getElementById("portfolio-container");
 
-        elm.innerHTML = `
-        <div class="portfolio-box">
-        <img src="${project.image}" alt="">
-        <div class="portfolio-layer">
-          <h4>${project.title}</h4>
-          <a href="projects.html?id=${project.id}"><i class="bx bx-link-external"></i></a>
-        </div>  
-      </div>
-        `
+        if (Array.isArray(data) && data.length > 0) {
+            // Sort projects by ID in descending order
+            const sortedProjects = data.sort((a, b) => b.id - a.id);
 
-        container.appendChild(elm)
-    });
+            sortedProjects.forEach(project => {
+                const elm = document.createElement('div');
+                elm.innerHTML = `
+                    <div class="portfolio-box">
+                        <img src="${project.image}" alt="${project.title}">
+                        <div class="portfolio-layer">
+                            <h4>${project.title}</h4>
+                            <a href="projects.html?id=${project.id}">
+                                <i class="bx bx-link-external"></i>
+                            </a>
+                        </div>  
+                    </div>
+                `;
+                container.appendChild(elm);
+            });
+        } else {
+            console.log("No projects available");
+        }
+    } catch (error) {
+        console.error("Error fetching data:", error);
+    }
 }
+
+
 
 fetchData()
 
