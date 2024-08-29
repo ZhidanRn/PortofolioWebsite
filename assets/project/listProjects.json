@@ -40,11 +40,23 @@
             "id": "4",
             "title": "NETFLIX",
             "image": "assets/images/portfolio4.jpg",
-            "tools": ["NextJs","TypeScript", "Tailwind CSS", "Shadcn/ui", "Prisma", "NextAuth"],
+            "tools": ["NextJs","ReactJs", "TypeScript", "Tailwind CSS", "Shadcn/ui", "Prisma", "NextAuth"],
             "description":"The goal of this project is to develop a Netflix clone web application using Next.js for the front-end, Prisma for database management, and NextAuth for user authentication. The application aims to replicate key features of Netflix, providing users with a seamless streaming experience, including user authentication, content browsing, and personalized recommendations. The project also involves fetching movie data from a locally seeded file for demonstration purposes.",
             "keyfeatures": ["User Authentication: Implement user login and registration functionalities using NextAuth, with support for multiple authentication providers such as Google, GitHub, and Email.", "Detailed Content View: Allow users to view detailed information about a selected movie or TV show, including a synopsis, cast details, trailer, release date, age rating, and runtime.", "Watchlist: Enable users to add movies and TV shows to a watchlist for easy access and future viewing.", "Navigation: Provide intuitive navigation to different sections of the application such as: Home, Movies, TV Shows, Recently Add and My List.", "Responsive Design: Ensure the application is fully responsive and offers a consistent and enjoyable user experience across various devices and screen sizes."],
             "contribute": "",
             "linklive" :"https://netflix-cloneapp16.vercel.app",
             "linksc" : "https://github.com/ZhidanRn/netflix-clone"
+        },
+
+        {
+            "id": "5",
+            "title": "LinkUp",
+            "image": "assets/images/portfolio5.jpg",
+            "tools": ["NextJs", "ReactJs", "TypeScript", "Tailwind CSS", "NextAuth", "Upstash Redis", "Pusher", "Zod"],
+            "description": "LinkUp is a modern chat application that allows users to connect with friends and send messages seamlessly. With a focus on simplicity and efficiency, LinkUp provides a streamlined user experience for real-time communication.",
+            "keyfeatures": ["Real-Time Messaging: Enables instant messaging between users, allowing them to communicate in real-time with smooth and responsive interactions.", "Add Friends Functionality: Users can search for and add friends, creating a personalized list of contacts to chat with.", "Authentication: Secure user authentication using NextAuth with providers like Google, ensuring safe and easy access to the chat app.", "Responsive Design: The app is fully responsive, providing an optimal user experience across all screen sizes and devices.", "Notifications: Real-time notifications for new messages and friend requests, keeping users informed and engaged."],
+            "contribute": "",
+            "linklive": "https://linkup-nextjs14.vercel.app",
+            "linksc": "https://github.com/ZhidanRn/LinkUp"
         }
 ]
