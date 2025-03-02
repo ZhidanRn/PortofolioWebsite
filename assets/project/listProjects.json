@@ -58,5 +58,16 @@
             "contribute": "",
             "linklive": "https://linkup-nextjs14.vercel.app",
             "linksc": "https://github.com/ZhidanRn/LinkUp"
+        },
+        {
+            "id": "6",
+            "title": "HikeSafe",
+            "image": "assets/images/portfolio6.jpg",
+            "tools": ["React Native", "Expo", "TypeScript", "Java", "Spring Boot", "PostGreSQL"],
+            "description": "HikeSafe is a mobile application designed to enhance the safety and convenience of mountain hikers. By integrating location tracking, hiking bookings, and secure payment processing, HikeSafe aims to provide a comprehensive solution for outdoor enthusiasts, even in remote areas without internet coverage.",
+            "keyfeatures": ["Hiker Tracking Real-Time Location Tracking: The application accurately tracks and displays hikers’ locations, ensuring safety during hiking activities.", "Hiking Booking Manage Bookings: Users can easily create, manage, and cancel their hiking bookings directly from the mobile app.", "Synchronization: All bookings are synchronized between the mobile app and the web platform for a seamless user experience.", "Hiking History Access Past Hikes: Users can view their hiking history, allowing them to keep track of their adventures.", "Secure Payment Processing Midtrans Payment Gateway: The app integrates with Midtrans to provide secure and encrypted payment transactions, ensuring user data safety and quick payment confirmations.", "User Management Seamless Registration and Login: The mobile app supports easy registration, login, and logout processes, ensuring a user-friendly experience."],
+            "contribute": "",
+            "linklive": "",
+            "linksc": "https://github.com/HikeSafe-Project/mobile"
         }
 ]
